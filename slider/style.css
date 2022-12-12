@@ -1,0 +1,24 @@
+*
+{
+    box-sizing: border-box;
+}
+.maindiv
+{
+}
+.maibphoto
+{
+    height: 400px;
+    margin-left: 350px;
+}
+.child
+{
+}
+.child img
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 0;
+    margin-left: 100px;
+cursor: pointer;
+}
