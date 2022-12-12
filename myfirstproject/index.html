@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>cruds project</title>
+        <link rel="stylesheet" href="project.css">
+    </head>
+    <body>
+        <div class="main">
+            <label for="productName">product Name :</label>
+            <br>
+            <input type="text" id="productName" class="product">
+            <br>
+            <label for="productPrice">product Price :</label>
+            <br>
+            <input type="number" id="productPrice" class="product">
+            <br>
+            <label for="productCategory">product category :</label>
+            <br>
+            <input type="text" id="productCategory" class="product">
+            <br>
+            <label for="productDescription">product Name :</label>
+            <br>
+            <input type="text" id="productDescription" class="product">
+            <br>
+            <button onclick="ADD()" class="btn" id="Add" >ADD Product</button>
+        </div>
+        <label for="searchh">search :</label>
+        <input type="text" id="searchh" class="product" onkeyup="serach(this.value)">
+        <table class="tableofproduct">
+            <thead>
+                  <th>index</th>
+                  <th>productName</th>
+                  <th>productPrice</th>
+                  <th>productCategory</th>
+                  <th>productDescription</th>
+                  <th>Delete</th>
+            </thead>
+            <tbody id="body">
+                 
+            </tbody>
+        </table>
+<script src="project.js"></script>
+    </body>
+</html>

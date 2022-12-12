@@ -1,0 +1,41 @@
+.product
+{
+    display: block;
+    width: 40%;
+    height: 30px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn
+{
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    width: 10%;
+    height: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.tableofproduct
+{
+   
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+  td{
+    color: blue;
+
+  }
+  
+  tr:hover {background-color: #D6EEEE;}
+
+
+  
